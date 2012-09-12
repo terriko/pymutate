@@ -22,5 +22,24 @@ expressly forbidden to use it to cheat on class assignments that require you to
 build a fuzz tester (feel free to learn from it, just don't claim it as your
 own work!)
 
+Usage:
+-----
+usage: pymutate.py [-h] [--insert] [--delete] [--mutate] [--crossover] [--all]
+
+A string mutation device for piped data
+
+optional arguments:
+  -h, --help   show this help message and exit
+  --insert     Insert a random character in a random location
+  --delete     Delete character in a random location
+  --mutate     Mutate a random character in a random location
+  --crossover  Cross two random characters
+  --all        Show all possible mutation types
+
+If nothing is specified, pymutate chooses a mutation type randomly (equal chance
+of insert, delete, mutate, crossover) and outputs the result.  Perhaps one day
+there will be specifiable percentages for this.
+
+
  Terri Oda
  terri@zone12.com
