@@ -18,7 +18,7 @@ parser.add_argument('--mutate', action="store_true",
 parser.add_argument('--crossover', action="store_true",
                    help="Cross two random characters")
 parser.add_argument('--all', action="store_true",
-                   help="Show all possible mutation types")
+                   help="Show results for all possible mutation types")
 args = parser.parse_args()
 
 #inputString = raw_input()

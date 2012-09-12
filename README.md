@@ -35,7 +35,7 @@ optional arguments:
   --delete     Delete character in a random location
   --mutate     Mutate a random character in a random location
   --crossover  Cross two random characters
-  --all        Show all possible mutation types
+  --all        Show results for all possible mutation types
 </pre>
 
 If nothing is specified, pymutate chooses a mutation type randomly (equal chance
