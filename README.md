@@ -24,6 +24,7 @@ own work!)
 
 Usage:
 -----
+<pre>
 usage: pymutate.py [-h] [--insert] [--delete] [--mutate] [--crossover] [--all]
 
 A string mutation device for piped data
@@ -35,11 +36,11 @@ optional arguments:
   --mutate     Mutate a random character in a random location
   --crossover  Cross two random characters
   --all        Show all possible mutation types
+</pre>
 
 If nothing is specified, pymutate chooses a mutation type randomly (equal chance
 of insert, delete, mutate, crossover) and outputs the result.  Perhaps one day
 there will be specifiable percentages for this.
-
 
  Terri Oda
  terri@zone12.com
