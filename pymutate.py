@@ -86,12 +86,12 @@ if (args.all):
 
 if (finalString == inputString):
 	# choose an operation at random
-	choice = random.random()
-	if (choice < .25):
+	choice = random.randint(0,3)
+	if (choice == 0):
 		finalString = insertion(inputString)
-	elif (choice < .5):
+	elif (choice == 1):
 		finalString = mutation(inputString)
-	elif (choice < .75):
+	elif (choice == 2):
 		finalString = deletion(inputString)
 	else:
 		finalString = crossover(inputString)
